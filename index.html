@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>你好，世界！</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f6f8; color: #1f2329; line-height: 1.7;
+    display: flex; justify-content: center;
+  }
+  .card {
+    max-width: 520px; background: #fff; border-radius: 14px;
+    padding: 36px 32px; box-shadow: 0 4px 16px rgba(0,0,0,.06);
+  }
+  h1 { margin: 0 0 6px; font-size: 26px; letter-spacing: .5px; }
+  .tagline { color: #8a9099; font-size: 14px; margin-bottom: 24px; }
+  .line { border-top: 1px solid #eef0f2; margin: 20px 0; }
+  .badge {
+    display: inline-block; padding: 4px 12px; border-radius: 999px;
+    background: #2f5597; color: #fff; font-size: 12px; letter-spacing: 1px;
+  }
+  ul { padding-left: 20px; margin: 12px 0; }
+  li { margin: 6px 0; }
+  code { background: #f2f4f7; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+  .tip { color: #a06400; background: #fff8e6; border: 1px solid #f5dfa8;
+         border-radius: 8px; padding: 10px 14px; font-size: 13.5px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <span class="badge">部署练习</span>
+  <h1>你好，世界！👋</h1>
+  <div class="tagline">这是我第一次把网页发布到互联网上。</div>
+
+  <p>如果别人也能打开这个页面，就说明我完成了「部署」——把原本只存在自己电脑里的文件，放到了公网上，并得到了一个网址。</p>
+
+  <div class="line"></div>
+
+  <p><b>这个页面证明了几件事：</b></p>
+  <ul>
+    <li>网页 = HTML 文件 + 浏览器把它画出来</li>
+    <li>部署 = 把文件放到服务器 + 配一个网址</li>
+    <li>从 <code>file://</code> 变成 <code>https://</code>，就是「上线」</li>
+  </ul>
+
+  <div class="tip">这是一个纯学习用的测试页面，不含任何真实信息，可以放心发布。</div>
+</div>
+</body>
+</html>
